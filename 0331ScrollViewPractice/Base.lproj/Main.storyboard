@@ -37,6 +37,14 @@
             </objects>
             <point key="canvasLocation" x="162.66666666666666" y="366.36000000000001"/>
         </scene>
+        <!--Page View Controller-->
+        <scene sceneID="jsQ-Z3-wUU">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="gTV-WW-leZ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8rm-W3-mR8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="997"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
