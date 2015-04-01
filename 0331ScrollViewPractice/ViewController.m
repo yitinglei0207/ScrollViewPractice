@@ -20,12 +20,16 @@
     UIImageView *img1 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"000085160012.jpg"]];
     UIImageView *img2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"000085160018.jpg"]];
     UIImageView *img3 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"000085160021.jpg"]];
+    //img1.sizeToFit;
     
-    img1.contentMode = UIViewContentModeScaleAspectFit;
+    img1.backgroundColor = [UIColor greenColor];
+    
+    img1.contentMode = UIViewContentModeScaleAspectFill;
     img2.contentMode = UIViewContentModeScaleAspectFit;
     img3.contentMode = UIViewContentModeScaleAspectFit;
     
-    CGRect rect = CGRectMake(0, 0, 800, self.myScroll.frame.size.height);
+    [img1 sizeToFit];
+    CGRect rect = CGRectMake(0, 0, img1.frame.size.width/2, img1.frame.size.height/2);
     img1.frame = rect;
     img2.frame = CGRectOffset(img1.frame, 0, img1.frame.size.height);
     img3.frame = CGRectOffset(img2.frame, 0, img2.frame.size.height);
