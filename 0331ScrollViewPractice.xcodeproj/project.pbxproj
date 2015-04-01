@@ -17,6 +17,9 @@
 		428160E51ACA8E1500BB0235 /* 000085160012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428160E41ACA8E1500BB0235 /* 000085160012.jpg */; };
 		428160E71ACA8E2200BB0235 /* 000085160018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428160E61ACA8E2200BB0235 /* 000085160018.jpg */; };
 		428160E91ACA8FDF00BB0235 /* 000085160021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428160E81ACA8FDF00BB0235 /* 000085160021.jpg */; };
+		428160EC1ACABCCC00BB0235 /* pageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160EB1ACABCCC00BB0235 /* pageViewController.m */; };
+		428160EF1ACAC69700BB0235 /* myCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160EE1ACAC69700BB0235 /* myCustomView.m */; };
+		428160F11ACB83DF00BB0235 /* alpha-logo-long.png in Resources */ = {isa = PBXBuildFile; fileRef = 428160F01ACB83DF00BB0235 /* alpha-logo-long.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,11 @@
 		428160E41ACA8E1500BB0235 /* 000085160012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000085160012.jpg; sourceTree = "<group>"; };
 		428160E61ACA8E2200BB0235 /* 000085160018.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000085160018.jpg; sourceTree = "<group>"; };
 		428160E81ACA8FDF00BB0235 /* 000085160021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000085160021.jpg; sourceTree = "<group>"; };
+		428160EA1ACABCCC00BB0235 /* pageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageViewController.h; sourceTree = "<group>"; };
+		428160EB1ACABCCC00BB0235 /* pageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageViewController.m; sourceTree = "<group>"; };
+		428160ED1ACAC69700BB0235 /* myCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCustomView.h; sourceTree = "<group>"; };
+		428160EE1ACAC69700BB0235 /* myCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCustomView.m; sourceTree = "<group>"; };
+		428160F01ACB83DF00BB0235 /* alpha-logo-long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha-logo-long.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,7 @@
 		428160B01ACA806200BB0235 = {
 			isa = PBXGroup;
 			children = (
+				428160F01ACB83DF00BB0235 /* alpha-logo-long.png */,
 				428160E41ACA8E1500BB0235 /* 000085160012.jpg */,
 				428160E81ACA8FDF00BB0235 /* 000085160021.jpg */,
 				428160E61ACA8E2200BB0235 /* 000085160018.jpg */,
@@ -98,6 +107,10 @@
 				428160C91ACA806200BB0235 /* Images.xcassets */,
 				428160CB1ACA806200BB0235 /* LaunchScreen.xib */,
 				428160BC1ACA806200BB0235 /* Supporting Files */,
+				428160EA1ACABCCC00BB0235 /* pageViewController.h */,
+				428160EB1ACABCCC00BB0235 /* pageViewController.m */,
+				428160ED1ACAC69700BB0235 /* myCustomView.h */,
+				428160EE1ACAC69700BB0235 /* myCustomView.m */,
 			);
 			path = 0331ScrollViewPractice;
 			sourceTree = "<group>";
@@ -209,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				428160E71ACA8E2200BB0235 /* 000085160018.jpg in Resources */,
+				428160F11ACB83DF00BB0235 /* alpha-logo-long.png in Resources */,
 				428160E51ACA8E1500BB0235 /* 000085160012.jpg in Resources */,
 				428160C81ACA806200BB0235 /* Main.storyboard in Resources */,
 				428160CD1ACA806200BB0235 /* LaunchScreen.xib in Resources */,
@@ -234,6 +248,8 @@
 				428160C51ACA806200BB0235 /* ViewController.m in Sources */,
 				428160C21ACA806200BB0235 /* AppDelegate.m in Sources */,
 				428160BF1ACA806200BB0235 /* main.m in Sources */,
+				428160EF1ACAC69700BB0235 /* myCustomView.m in Sources */,
+				428160EC1ACABCCC00BB0235 /* pageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
