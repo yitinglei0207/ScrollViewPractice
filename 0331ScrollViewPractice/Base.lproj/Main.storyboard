@@ -17,22 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1t-XK-ysM">
-                                <rect key="frame" x="137" y="222" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="push" id="J0G-9f-Kwd"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcC-Wz-hTY">
-                                <rect key="frame" x="137" y="305" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="137" y="305" width="86" height="30"/>
+                                <state key="normal" title="PageView">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="mPz-pM-F6U" kind="push" id="AsQ-0w-Mzb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THi-fo-ieG">
+                                <rect key="frame" x="161" y="499" width="55" height="30"/>
+                                <state key="normal" title="Button3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KAH-bs-XLN" kind="push" id="iBM-w0-Weg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1t-XK-ysM">
+                                <rect key="frame" x="137" y="222" width="86" height="30"/>
+                                <state key="normal" title="ScrollView">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="push" id="J0G-9f-Kwd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -122,6 +131,25 @@
                 </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="694" y="1001"/>
+        </scene>
+        <!--Test Custom View Controller-->
+        <scene sceneID="ECa-ec-y4O">
+            <objects>
+                <viewController id="KAH-bs-XLN" customClass="testCustomViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XZ1-84-DWR"/>
+                        <viewControllerLayoutGuide type="bottom" id="sZM-y5-Q6z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sop-XW-vnP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Jx-vg-P15"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NxB-6I-SLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="689" y="1638"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aEw-i3-Ju5">

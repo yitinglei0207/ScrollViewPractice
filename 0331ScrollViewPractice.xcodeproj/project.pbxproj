@@ -20,6 +20,7 @@
 		428160EC1ACABCCC00BB0235 /* pageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160EB1ACABCCC00BB0235 /* pageViewController.m */; };
 		428160EF1ACAC69700BB0235 /* myCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160EE1ACAC69700BB0235 /* myCustomView.m */; };
 		428160F11ACB83DF00BB0235 /* alpha-logo-long.png in Resources */ = {isa = PBXBuildFile; fileRef = 428160F01ACB83DF00BB0235 /* alpha-logo-long.png */; };
+		428160F41ACBE5BD00BB0235 /* testCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160F31ACBE5BD00BB0235 /* testCustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		428160ED1ACAC69700BB0235 /* myCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCustomView.h; sourceTree = "<group>"; };
 		428160EE1ACAC69700BB0235 /* myCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCustomView.m; sourceTree = "<group>"; };
 		428160F01ACB83DF00BB0235 /* alpha-logo-long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha-logo-long.png"; sourceTree = "<group>"; };
+		428160F21ACBE5BD00BB0235 /* testCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCustomViewController.h; sourceTree = "<group>"; };
+		428160F31ACBE5BD00BB0235 /* testCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				428160EB1ACABCCC00BB0235 /* pageViewController.m */,
 				428160ED1ACAC69700BB0235 /* myCustomView.h */,
 				428160EE1ACAC69700BB0235 /* myCustomView.m */,
+				428160F21ACBE5BD00BB0235 /* testCustomViewController.h */,
+				428160F31ACBE5BD00BB0235 /* testCustomViewController.m */,
 			);
 			path = 0331ScrollViewPractice;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				428160C51ACA806200BB0235 /* ViewController.m in Sources */,
+				428160F41ACBE5BD00BB0235 /* testCustomViewController.m in Sources */,
 				428160C21ACA806200BB0235 /* AppDelegate.m in Sources */,
 				428160BF1ACA806200BB0235 /* main.m in Sources */,
 				428160EF1ACAC69700BB0235 /* myCustomView.m in Sources */,

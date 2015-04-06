@@ -10,8 +10,8 @@
 
 @interface myCustomView : UIView
 
-@property (weak,nonatomic)IBOutlet UIImage *im1;
-@property (weak,nonatomic)IBOutlet UILabel *lb1;
+@property (strong,nonatomic)IBOutlet UIImageView *im1;
+@property (strong,nonatomic)IBOutlet UILabel *lb1;
 
 
 @end
