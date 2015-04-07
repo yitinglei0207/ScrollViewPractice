@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface myCustomView : UIView
+@interface MyCustomView : UIView
 
-@property (strong,nonatomic)IBOutlet UIImageView *im1;
-@property (strong,nonatomic)IBOutlet UILabel *lb1;
+@property (strong,nonatomic) UIImageView *im1;
+@property (strong,nonatomic) UILabel *lb1;
 
 
 @end

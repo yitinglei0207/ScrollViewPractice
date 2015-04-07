@@ -135,7 +135,7 @@
         <!--Test Custom View Controller-->
         <scene sceneID="ECa-ec-y4O">
             <objects>
-                <viewController id="KAH-bs-XLN" customClass="testCustomViewController" sceneMemberID="viewController">
+                <viewController id="KAH-bs-XLN" customClass="TestCustomViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XZ1-84-DWR"/>
                         <viewControllerLayoutGuide type="bottom" id="sZM-y5-Q6z"/>

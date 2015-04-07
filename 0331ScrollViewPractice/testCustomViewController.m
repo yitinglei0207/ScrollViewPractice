@@ -6,22 +6,22 @@
 //  Copyright (c) 2015年 AlphaCamp. All rights reserved.
 //
 
-#import "testCustomViewController.h"
-#import "myCustomView.h"
-@interface testCustomViewController ()
+#import "TestCustomViewController.h"
+#import "MyCustomView.h"
+@interface TestCustomViewController ()
 
 @end
 
-@implementation testCustomViewController
+@implementation TestCustomViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    CGRect rect1 = CGRectMake(0, 100, 360 , 600);
+    CGRect rect1 = CGRectMake(0, 80, 480 , 800);
     
-    myCustomView *custom = [[myCustomView alloc] init];
-    
-    [custom drawRect:rect1];
+    MyCustomView *custom = [[MyCustomView alloc] init];
+    custom.frame = rect1;
+    //[custom drawRect:rect1];
     
     [self.view addSubview:custom];
     

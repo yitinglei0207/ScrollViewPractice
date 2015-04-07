@@ -18,9 +18,9 @@
 		428160E71ACA8E2200BB0235 /* 000085160018.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428160E61ACA8E2200BB0235 /* 000085160018.jpg */; };
 		428160E91ACA8FDF00BB0235 /* 000085160021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428160E81ACA8FDF00BB0235 /* 000085160021.jpg */; };
 		428160EC1ACABCCC00BB0235 /* pageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160EB1ACABCCC00BB0235 /* pageViewController.m */; };
-		428160EF1ACAC69700BB0235 /* myCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160EE1ACAC69700BB0235 /* myCustomView.m */; };
+		428160EF1ACAC69700BB0235 /* MyCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160EE1ACAC69700BB0235 /* MyCustomView.m */; };
 		428160F11ACB83DF00BB0235 /* alpha-logo-long.png in Resources */ = {isa = PBXBuildFile; fileRef = 428160F01ACB83DF00BB0235 /* alpha-logo-long.png */; };
-		428160F41ACBE5BD00BB0235 /* testCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160F31ACBE5BD00BB0235 /* testCustomViewController.m */; };
+		428160F41ACBE5BD00BB0235 /* TestCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428160F31ACBE5BD00BB0235 /* TestCustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		428160E81ACA8FDF00BB0235 /* 000085160021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000085160021.jpg; sourceTree = "<group>"; };
 		428160EA1ACABCCC00BB0235 /* pageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageViewController.h; sourceTree = "<group>"; };
 		428160EB1ACABCCC00BB0235 /* pageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageViewController.m; sourceTree = "<group>"; };
-		428160ED1ACAC69700BB0235 /* myCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCustomView.h; sourceTree = "<group>"; };
-		428160EE1ACAC69700BB0235 /* myCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCustomView.m; sourceTree = "<group>"; };
+		428160ED1ACAC69700BB0235 /* MyCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomView.h; sourceTree = "<group>"; };
+		428160EE1ACAC69700BB0235 /* MyCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomView.m; sourceTree = "<group>"; };
 		428160F01ACB83DF00BB0235 /* alpha-logo-long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha-logo-long.png"; sourceTree = "<group>"; };
-		428160F21ACBE5BD00BB0235 /* testCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCustomViewController.h; sourceTree = "<group>"; };
-		428160F31ACBE5BD00BB0235 /* testCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCustomViewController.m; sourceTree = "<group>"; };
+		428160F21ACBE5BD00BB0235 /* TestCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCustomViewController.h; sourceTree = "<group>"; };
+		428160F31ACBE5BD00BB0235 /* TestCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCustomViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +112,10 @@
 				428160BC1ACA806200BB0235 /* Supporting Files */,
 				428160EA1ACABCCC00BB0235 /* pageViewController.h */,
 				428160EB1ACABCCC00BB0235 /* pageViewController.m */,
-				428160ED1ACAC69700BB0235 /* myCustomView.h */,
-				428160EE1ACAC69700BB0235 /* myCustomView.m */,
-				428160F21ACBE5BD00BB0235 /* testCustomViewController.h */,
-				428160F31ACBE5BD00BB0235 /* testCustomViewController.m */,
+				428160ED1ACAC69700BB0235 /* MyCustomView.h */,
+				428160EE1ACAC69700BB0235 /* MyCustomView.m */,
+				428160F21ACBE5BD00BB0235 /* TestCustomViewController.h */,
+				428160F31ACBE5BD00BB0235 /* TestCustomViewController.m */,
 			);
 			path = 0331ScrollViewPractice;
 			sourceTree = "<group>";
@@ -251,10 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				428160C51ACA806200BB0235 /* ViewController.m in Sources */,
-				428160F41ACBE5BD00BB0235 /* testCustomViewController.m in Sources */,
+				428160F41ACBE5BD00BB0235 /* TestCustomViewController.m in Sources */,
 				428160C21ACA806200BB0235 /* AppDelegate.m in Sources */,
 				428160BF1ACA806200BB0235 /* main.m in Sources */,
-				428160EF1ACAC69700BB0235 /* myCustomView.m in Sources */,
+				428160EF1ACAC69700BB0235 /* MyCustomView.m in Sources */,
 				428160EC1ACABCCC00BB0235 /* pageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +446,7 @@
 				428160DE1ACA806200BB0235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		428160DF1ACA806200BB0235 /* Build configuration list for PBXNativeTarget "0331ScrollViewPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +455,7 @@
 				428160E11ACA806200BB0235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
